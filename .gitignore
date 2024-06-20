@@ -1,0 +1,79 @@
+# Java
+*.class
+*.war
+*.jar
+*.log
+*.tmp
+*.out
+*.err
+hs_err_pid*
+replay_pid*
+.mvn
+target/
+!src/main/resources/static/
+!src/main/resources/public/
+!src/main/resources/META-INF/resources/
+!src/main/resources/META-INF/resources/css
+!src/main/resources/META-INF/resources/js
+!src/main/resources/META-INF/resources/img
+
+# Spring Boot
+*.class
+*.jar
+*.war
+*.iml
+*.hprof
+*.project
+*.classpath
+*.settings
+*.factorypath
+*.log
+.mvn
+/target/
+**/build/
+!**/src/main/resources/static/
+/**/src/main/resources/application-*.properties
+/**/src/main/resources/application-*.yml
+**/src/test/resources/application-*.properties
+**/src/test/resources/application-*.yml
+
+# Node/React
+node_modules/
+dist/
+build/
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Logs
+logs/
+*.log
+
+# IntelliJ IDEA
+*.idea/
+*.iml
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
